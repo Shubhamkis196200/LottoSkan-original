@@ -1,0 +1,239 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_exif_rotation (0.3.0):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - Google-Mobile-Ads-SDK (9.14.0):
+    - GoogleAppMeasurement (< 11.0, >= 7.0)
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - google_ml_vision (0.0.7):
+    - Flutter
+    - GoogleMLKit/BarcodeScanning (~> 2.2.0)
+    - GoogleMLKit/FaceDetection (~> 2.2.0)
+    - GoogleMLKit/ImageLabeling (~> 2.2.0)
+    - GoogleMLKit/TextRecognition (~> 2.2.0)
+  - google_mobile_ads (1.0.0):
+    - Flutter
+    - Google-Mobile-Ads-SDK (~> 9.13)
+  - GoogleAppMeasurement (9.6.0):
+    - GoogleAppMeasurement/AdIdSupport (= 9.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (9.6.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 9.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (9.6.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.1.2):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMLKit/BarcodeScanning (2.2.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitBarcodeScanning (~> 1.3.0)
+  - GoogleMLKit/FaceDetection (2.2.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitFaceDetection (~> 1.3.0)
+  - GoogleMLKit/ImageLabeling (2.2.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitImageLabeling (~> 1.3.0)
+  - GoogleMLKit/MLKitCore (2.2.0):
+    - MLKitCommon (~> 3.0.0)
+  - GoogleMLKit/TextRecognition (2.2.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitTextRecognition (~> 1.3.0)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - GoogleToolboxForMac/Logger (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
+  - GoogleUserMessagingPlatform (2.7.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilitiesComponents (1.1.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.7.0)
+  - image_picker (0.0.1):
+    - Flutter
+  - MLImage (1.0.0-beta1)
+  - MLKitBarcodeScanning (1.3.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitVision (~> 1.3)
+  - MLKitCommon (3.0.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.12)
+  - MLKitFaceDetection (1.3.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitVision (~> 1.3)
+  - MLKitImageLabeling (1.3.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitImageLabelingCommon (~> 1.3)
+    - MLKitVision (~> 1.3)
+    - MLKitVisionKit (~> 2.2)
+  - MLKitImageLabelingCommon (1.3.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitVision (~> 1.3)
+  - MLKitObjectDetectionCommon (1.3.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitVision (~> 1.3)
+  - MLKitTextRecognition (1.3.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitVision (~> 1.3)
+  - MLKitVision (1.3.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+    - MLImage (= 1.0.0-beta1)
+    - MLKitCommon (~> 3.0)
+    - Protobuf (~> 3.12)
+  - MLKitVisionKit (2.2.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitImageLabelingCommon (~> 1.3)
+    - MLKitObjectDetectionCommon (~> 1.3)
+    - MLKitVision (~> 1.3)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - package_info_plus (0.4.5):
+    - Flutter
+  - PromisesObjC (2.0.0)
+  - Protobuf (3.19.4)
+  - store_redirect (0.0.1):
+    - Flutter
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_exif_rotation (from `.symlinks/plugins/flutter_exif_rotation/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - google_ml_vision (from `.symlinks/plugins/google_ml_vision/ios`)
+  - google_mobile_ads (from `.symlinks/plugins/google_mobile_ads/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - store_redirect (from `.symlinks/plugins/store_redirect/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMLKit
+    - GoogleToolboxForMac
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMSessionFetcher
+    - MLImage
+    - MLKitBarcodeScanning
+    - MLKitCommon
+    - MLKitFaceDetection
+    - MLKitImageLabeling
+    - MLKitImageLabelingCommon
+    - MLKitObjectDetectionCommon
+    - MLKitTextRecognition
+    - MLKitVision
+    - MLKitVisionKit
+    - nanopb
+    - PromisesObjC
+    - Protobuf
+    - Toast
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_exif_rotation:
+    :path: ".symlinks/plugins/flutter_exif_rotation/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  google_ml_vision:
+    :path: ".symlinks/plugins/google_ml_vision/ios"
+  google_mobile_ads:
+    :path: ".symlinks/plugins/google_mobile_ads/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  store_redirect:
+    :path: ".symlinks/plugins/store_redirect/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_exif_rotation: 36dbe4d0bb56b9f8d2cc99e3ad24dbb38b674ea9
+  fluttertoast: 16fbe6039d06a763f3533670197d01fc73459037
+  Google-Mobile-Ads-SDK: 4fe6304b771f8467d29978cb790ec1e56e646946
+  google_ml_vision: d16cd76617b3260c4283a28843555a8c6253a171
+  google_mobile_ads: 528ab4673c5b5fd36321b7e90fc585064cdbaf2b
+  GoogleAppMeasurement: 6de2b1a69e4326eb82ee05d138f6a5cb7311bcb1
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleMLKit: 85ffdc9641d05311c76dbba5bbf93059087be12f
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  GoogleUserMessagingPlatform: a8b56893477f67212fbc8411c139e61d463349f5
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  image_picker: 541dcbb3b9cf32d87eacbd957845d8651d6c62c3
+  MLImage: 647f3d580c10b3c9a3f6154f5d7baead60c42a0c
+  MLKitBarcodeScanning: 6b998bd1cfe471ae407a7f647d649494617787c0
+  MLKitCommon: 6d6be0a2e9a6340aad1c1f2b9449c11dee8af70f
+  MLKitFaceDetection: 897f007aa4eb426ef1bac7c66e5451d02ffc2e83
+  MLKitImageLabeling: fc44a4f90b1cf16bcb62c043d477c052ba7539ca
+  MLKitImageLabelingCommon: fbe695a04fb236555e6b7e69e7def153a04324c1
+  MLKitObjectDetectionCommon: 6abf300c61cd781ee3abc8abea8a3f8baca886dc
+  MLKitTextRecognition: fd52b7b3cef00751c202475f5a147e9752130767
+  MLKitVision: 26da299aef93291f24f5200e8372919f73abf3b5
+  MLKitVisionKit: 226bac429eda1d84285409e31ce9da72606850fb
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  package_info_plus: 6c92f08e1f853dc01228d6f553146438dafcd14e
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  Protobuf: 235750e4696ff59fb07d949a9dbbc92b3c0700fe
+  store_redirect: 2977747cf81689a39bd62c248c2deacb7a0d131e
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
+
+COCOAPODS: 1.16.2
