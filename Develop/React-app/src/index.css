@@ -1,0 +1,58 @@
+.drop-down-arrow {
+  color: black;
+}
+
+.show-pagination {
+  width: 80px !important;
+}
+.required {
+  color: red;
+}
+
+.list-invalid {
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+.custome-date .react-datepicker-wrapper {
+  width: 80% !important;
+}
+.custom-table th {
+  width: 25%;
+}
+.custom-table td {
+  width: 75%;
+}
+
+.date-cursor:hover {
+  cursor: pointer;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #23282c !important;
+}
+.nav-tabs .nav-link {
+  color: #171b1d !important;
+}
+
+.react-read-more-read-less {
+  color: #20a8d8;
+}
+.react-read-more-read-less-more {
+  color: #20a8d8;
+}
+
+.capital:first-letter {
+  text-transform: capitalize;
+}
+
+.business_about a {
+  color: black;
+  text-decoration: none;
+  margin: 0px 4px;
+}
+.business_about a:hover {
+  color: #20a8d8 !important;
+  text-decoration: none;
+}
